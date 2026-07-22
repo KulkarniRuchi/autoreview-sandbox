@@ -1,0 +1,11 @@
+import os  # TRIVIAL: unused import
+import math
+
+def a(x, y):  # TRIVIAL: unclear naming
+    return x + y
+
+def multiply(first_number, second_number):
+    return first_number * second_number
+
+def circle_area(radius):
+    return math.pi * radius * radius
